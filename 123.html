@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gigachad misin, virgin misin?</title>
+</head>
+<body>
+    <h2>Gigachad misin, virgin misin?</h2>
+    <h3>Kaç istiridye boyusun?</h3>
+    <input type="number"
+id="sayikutusu">
+
+    <button
+    onclick="hesapla()">hesapla</button>
+
+    <h4 id="sonucyeri"></h4>
+
+    <script>
+        function hesapla(){
+            let sayi = document.getElementById("sayikutusu").value;
+            if(sayi===""){
+                document.getElementById("sonucyeri").innerHTML = "sayi girmedin aga virgin misin!!!!";
+                return;
+            }
+            if(sayi<10){
+                document.getElementById("sonucyeri").innerHTML = "aga sen terorororo";
+                return;
+            }
+            if(sayi<26){
+                document.getElementById("sonucyeri").innerHTML = "aga sen virginsinnnn";
+                return;
+            }
+            if(sayi<=36){
+                document.getElementById("sonucyeri").innerHTML = "aga sen sigmaaaaa";
+                return;
+            }
+            if(sayi>=36){
+                document.getElementById("sonucyeri").innerHTML = "aga sen gigachaaaaad";
+                return;
+              
+            }
+        }
+    </script>
+</body>
+</html>
